@@ -1,0 +1,12 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #202823; background: #fafbf8; }
+body { max-width: 52rem; margin: 0 auto; padding: 1.25rem; line-height: 1.7; overflow-wrap: anywhere; }
+header { border-bottom: 1px solid #b7c6bb; padding-bottom: 1rem; }
+nav a { display: inline-block; padding: .7rem .3rem; }
+a { color: #1c5533; text-underline-offset: .2em; }
+a:focus-visible { outline: 3px solid #316abe; outline-offset: 3px; }
+[aria-current="page"] { font-weight: 700; }
+h1 { font-size: 1.8rem; line-height: 1.3; margin-top: 2rem; }
+h2 { font-size: 1.2rem; margin-top: 2rem; }
+.draft { border: 2px solid #87631c; background: #fff6df; padding: 1rem; }
+li a { display: inline-block; padding: .7rem; }
+@media print { body { max-width: none; color: black; background: white; } nav { display: none; } }
