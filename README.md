@@ -15,7 +15,7 @@ Deshalb enthalten beide Varianten offene Minderjährigen-/Altersvorgaben.
 policies/
   eu/privacy.{de,en,fr,ko,ja}.md   # EU-/DSGVO-Quellen, fünf Sprachen
   us/privacy.en.md               # Eigenständige US-Fassung auf Englisch
-public/
+./
   index.html                    # Gemeinsamer Einstieg
   privacy/eu/{de,en,fr,ko,ja}/    # EU-HTML-Seiten
   privacy/us/en/                 # US-HTML-Seite
@@ -26,7 +26,7 @@ docs/GITHUB_PAGES.md             # Veröffentlichung und spätere URLs
 docs/EU_NOTES.md                 # EU-Quellen, Projektabgleich, offene Angaben
 docs/US_REVIEW.md                # US-Quellen und konkrete Prüfpunkte
 docs/VALIDATION.md               # Tatsächlich ausgeführte Prüfungen
-firebase.privacy.json            # Optionale Hostingalternative, nur public/
+firebase.privacy.json            # Frühere Firebase-Vorlage; vor Nutzung getrennten Buildordner anlegen
 ```
 
 [EU-Fassung Deutsch](policies/eu/privacy.de.md) ·
@@ -44,11 +44,11 @@ Python 3.10 oder neuer, keine zusätzlichen Pakete:
 ```bash
 python3 tools/build_privacy_site.py
 python3 tools/build_privacy_site.py --check
-python3 -m http.server 8766 --bind 127.0.0.1 --directory public
+python3 -m http.server 8766 --bind 127.0.0.1 --directory .
 ```
 
 Vorschau: `http://127.0.0.1:8766/`. Alle Links funktionieren auch unter dem
-GitHub-Pages-Unterpfad eines Repositorys. Die Dateien in `public/` werden aus
+GitHub-Pages-Unterpfad eines Repositorys. Die Dateien in dem Repository-Root werden aus
 den Markdown-Quellen erzeugt und sollten nicht separat bearbeitet werden.
 
 Vor Veröffentlichung:
@@ -66,7 +66,7 @@ und erst dann die Entwurfsmarkierung entfernen. Der Check ist keine Rechtsprüfu
 
 ## Veröffentlichung
 
-Nur `public/` als Webseiten-Artefakt veröffentlichen, siehe
+GitHub Pages: Branch `main`, Ordner `/(root)`; siehe
 [GitHub Pages](docs/GITHUB_PAGES.md). Dieses Repository enthält keinen Spielcode,
 keine Spielstände und keine Firebase-/AdMob-Zugangsdaten. Die bestehenden
 Git-Metadaten und `.gitattributes` des Zielverzeichnisses wurden erhalten.

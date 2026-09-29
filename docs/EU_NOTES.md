@@ -1,5 +1,9 @@
 # Historie und EU-Freigabehinweise
 
+Hinweis: Die folgenden Pfade und Firebase-Befehle dokumentieren den Stand
++vor dem Umzug von `public/` in den Repository-Root. Maßgeblich sind README und
++GITHUB_PAGES.
+
 Diese Hinweise sind auf die neue Ordnerstruktur angepasst. Aktueller Einstieg:
 [README](../README.md). Eine US-Fassung wurde separat ergänzt.
 

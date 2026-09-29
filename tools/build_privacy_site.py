@@ -12,7 +12,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PUBLIC = ROOT / "public"
+PUBLIC = ROOT
 LANGUAGES = {"de": "Deutsch", "en": "English", "fr": "Français", "ko": "한국어", "ja": "日本語"}
 POLICIES = [("eu", lang, label) for lang, label in LANGUAGES.items()] + [("us", "en", "English")]
 PLACEHOLDER = re.compile(r"\[[A-Z][A-Z0-9_]+\]")
@@ -139,9 +139,10 @@ def main():
     for asset in ("style.css", ".nojekyll"):
         if not (PUBLIC / asset).is_file():
             parser.exit(1, f"Missing static asset: {asset}\n")
-    actual = {str(p.relative_to(PUBLIC)) for p in PUBLIC.rglob("*") if p.is_file()}
+    actual = {str(p.relative_to(PUBLIC)) for p in (PUBLIC / "privacy").rglob("*") if p.is_file()}
+    actual |= {asset for asset in ("index.html", "style.css", ".nojekyll") if (PUBLIC / asset).is_file()}
     if actual != files:
-        parser.exit(1, f"Unexpected public files: {sorted(actual - files)}\n")
+        parser.exit(1, f"Unexpected website files: {sorted(actual - files)}\n")
     print(f"PASS: {len(POLICIES)} notices, {len(expected)} HTML pages; relative navigation checked. " +
           ("DRAFT — not ready to publish." if unresolved else "Completeness checked; legal review remains separate."))
 

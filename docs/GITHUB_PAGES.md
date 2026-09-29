@@ -1,7 +1,7 @@
 # GitHub Pages: beide regionalen Fassungen
 
 Dieses Repository enthält Markdown-Quellen, Prüfhinweise und das generierte
-Webseitenverzeichnis `public/`. Die bestehende Git-Konfiguration wird beim lokalen
+Webseiten-Dateien im Repository-Root. Die bestehende Git-Konfiguration wird beim lokalen
 Verschieben nicht geändert. Ein lokaler Repository-Ordner ist noch keine öffentliche
 Website; es wurde nichts gepusht oder aktiviert.
 
@@ -16,15 +16,11 @@ Website; es wurde nichts gepusht oder aktiviert.
 2. `python3 tools/build_privacy_site.py` und anschließend
    `python3 tools/build_privacy_site.py --check --release` ausführen. Nur bei Erfolg
    weitergehen. Das aktuelle Ergebnis ist wegen der Entwürfe absichtlich negativ.
-3. Für die Veröffentlichung aus diesem Repository einen GitHub-Pages-Workflow
-   verwenden, dessen hochgeladenes Webseiten-Artefakt ausschließlich `public/`
-   enthält. In GitHub **Settings → Pages → Source: GitHub Actions** wählen.
-   Einen Workflow erst bei tatsächlicher Veröffentlichungsentscheidung einrichten;
-   dieses Repository aktiviert keine automatische Veröffentlichung.
-4. Alternativ den Inhalt von `public/` in einen eigens gewählten Pages-Branch
-   übernehmen und **Settings → Pages → Deploy from a branch**, diesen Branch und
-   **/(root)** wählen. Die Quellstruktur des Hauptbranches dabei erhalten.
-   Nicht den gesamten Hauptbranch als Webseiteninhalt auswählen.
+3. In GitHub **Settings → Pages → Build and deployment → Source:
+   Deploy from a branch** wählen. Branch **main**, Ordner **/(root)** auswählen
+   und speichern. Die Einstiegdatei `index.html` liegt jetzt direkt im Root.
+4. Änderungen erst nach erfolgreicher Prüfung committen und pushen. Eine
+   zusätzliche Actions-Konfiguration ist für diese Struktur nicht nötig.
 5. Nach erfolgreichem Deployment die angezeigte URL ohne Anmeldung und mobil
    prüfen; soweit angeboten **Enforce HTTPS** aktivieren. Name und Postanschrift
    in den Seiten sind dann öffentlich; bei öffentlichem Quellrepository auch
@@ -51,7 +47,10 @@ Mechanismen müssen zusätzlich korrekt konfiguriert werden.
 
 ## Firebase als Alternative
 
-`firebase.privacy.json` veröffentlicht ausschließlich `public/` auf der vorgesehenen
+`firebase.privacy.json` verweist noch auf den früheren Ordner `public/` und
++darf in diesem Stand nicht verwendet werden. Für Firebase Hosting zunächst einen
++getrennten Ausgabeordner aus den Webseiten-Dateien aufbauen, dessen `public`-Pfad
++eintragen und unabhängig von den Quelltexten prüfen. Die Vorlage zielt auf eine
 separaten Site `pocketgotchi-918ab-privacy`. Site-Anlage und Deployment erst nach
 Freigabe; die CLI-Befehle stehen in [EU_NOTES](EU_NOTES.md). Keine Functions sind
 in diesem Repository enthalten. GitHub Pages übernimmt die Firebase-HTTP-Header

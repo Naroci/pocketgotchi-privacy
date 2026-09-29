@@ -1,3 +1,12 @@
+## Root-Umzug für GitHub Pages – 29.09.2026
+
+Der Inhalt von `public/` wurde in den Repository-Root verschoben: `index.html`,
+`privacy/`, `style.css`, `.nojekyll`. Der Generator schreibt und prüft diese
+Rootstruktur. GitHub Pages kann nun `main` + `/(root)` verwenden; nach einem Push
+liegen die HTML-Seiten unter `/pocketgotchi-privacy/privacy/…`.
+Die Firebase-Vorlage ist nach dem Umzug nicht direkt deploybar und wird vor
+Nutzung neu konfiguriert. Keine Texte oder Einwilligungsabläufe wurden verändert.
+
 # Prüfung am 29.09.2026
 
 - Fünf EU-Quellen bytegleich aus dem Spielprojekt übernommen; eigenständige
