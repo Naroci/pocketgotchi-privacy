@@ -2,11 +2,11 @@
 
 Mise à jour : 29 septembre 2026. Application : PocketGotchi (Android : com.myRandomCode.PocketGotchi).
 
-BROUILLON — Les coordonnées du responsable et les mentions signalées restent à compléter. Cette version n'est pas prête à être publiée et ne certifie pas la conformité au RGPD.
+BROUILLON — Les mentions signalées et certaines vérifications restent à compléter. Cette version n'est pas prête à être publiée et ne certifie pas la conformité au RGPD.
 
 ## 1. Responsable et contact
 
-Responsable : Mirco Hoelzenbein. Adresse postale et pays : 서울 서초구 방배로15길 15, 402호, 06683, 대한민국 (Republic of Korea). Contact confidentialité : codenamedeko@gmail.com. Délégué à la protection des données et représentant dans l'UE, si nécessaires : [DSB_EU_VERTRETER_ODER_NICHT_ERFORDERLICH].
+PocketGotchi est développé par Mirco Hoelzenbein, personne physique responsable du traitement des données personnelles. Il est le contact direct pour les demandes de confidentialité. Adresse postale : 서울 서초구 방배로15길 15, 402호, 06683, 대한민국 (Republic of Korea). E-mail : codenamedeko@gmail.com. Coordonnées d’un délégué distinct à la protection des données, si nécessaire : [DATENSCHUTZBEAUFTRAGTER_FALLS_ERFORDERLICH]. La nécessité de désigner un représentant établi dans l’UE au titre de l’article 27 du RGPD doit être examinée séparément : [EU_VERTRETER_FALLS_ERFORDERLICH].
 
 ## 2. Périmètre et version actuelle
 
@@ -32,7 +32,7 @@ Dans la mesure où des données personnelles sont concernées, les traitements n
 
 Les destinataires sont les entités Google chargées de l'authentification, du cloud et de la publicité, ainsi que leurs sous-traitants concernés. Google traite généralement les données clients Firebase pour notre compte ; ses propres finalités de compte et de publicité relèvent également de ses responsabilités et conditions. Pour l'EEE, sa politique désigne généralement Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irlande, dans les cas qu'elle décrit. Notre cocontractant Firebase : [GOOGLE_CLOUD_VERTRAGSPARTNER]. Autres partenaires publicitaires, à vérifier et identifier dans le formulaire avant publication : [ANZEIGENPARTNER_ODER_KEINE_WEITEREN].
 
-Des traitements hors EEE, notamment aux États-Unis, sont possibles. Région cloud réelle : [FIRESTORE_REGION]. Garanties applicables : [TRANSFERGARANTIEN]. Il peut s'agir d'une décision d'adéquation selon l'article 45 ou de clauses contractuelles types et mesures complémentaires nécessaires selon l'article 46. Le cadre UE–États-Unis ne s'applique qu'aux destinataires actuellement certifiés et transferts couverts. Vous pouvez demander des informations ou copies des garanties au contact indiqué. Un traitement exclusivement européen n'est pas garanti.
+Des traitements hors EEE, notamment aux États-Unis, sont possibles. Région cloud réelle : États-Unis (l'identifiant exact de la région Firestore reste à confirmer). Garanties applicables : [TRANSFERGARANTIEN]. Il peut s'agir d'une décision d'adéquation selon l'article 45 ou de clauses contractuelles types et mesures complémentaires nécessaires selon l'article 46. Le cadre UE–États-Unis ne s'applique qu'aux destinataires actuellement certifiés et transferts couverts. Vous pouvez demander des informations ou copies des garanties au contact indiqué. Un traitement exclusivement européen n'est pas garanti.
 
 ## 7. Conservation et suppression
 
@@ -50,7 +50,7 @@ Public et âge minimum : Le jeu vise principalement les adultes appréciant les 
 
 ## 10. Contact et site web
 
-Vos coordonnées et messages servent à traiter vos demandes selon l'article 6(1)(b), (c) ou (f), suivant leur objet. Ne fournissez que les informations nécessaires. Cette page est hébergée par [HOSTING_ANBIETER]. L'hébergeur traite notamment l'adresse IP et les données techniques de requête pour fournir et sécuriser la page, sur le fondement de l'article 6(1)(f) et de notre intérêt à offrir une information accessible et sûre. Hébergeur et conservation des journaux : [HOSTING_UND_LOGFRIST]. La page fournie n'intègre ni publicité, analyse, polices externes ni scripts de suivi et ne dépose elle-même aucun cookie. Les liens externes ne sont contactés qu'à leur ouverture.
+Vos coordonnées et messages servent à traiter vos demandes selon l'article 6(1)(b), (c) ou (f), suivant leur objet. Ne fournissez que les informations nécessaires. Cette page est hébergée par GitHub Pages (GitHub). L'hébergeur traite notamment l'adresse IP et les données techniques de requête pour fournir et sécuriser la page, sur le fondement de l'article 6(1)(f) et de notre intérêt à offrir une information accessible et sûre. Hébergeur et conservation des journaux : GitHub Pages ; GitHub enregistre les adresses IP des visiteurs à des fins de sécurité. Nous ne pouvons pas indiquer de durée fixe de conservation de ces journaux. Voir [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) et la [politique de confidentialité de GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). La page fournie n'intègre ni publicité, analyse, polices externes ni scripts de suivi et ne dépose elle-même aucun cookie. Les liens externes ne sont contactés qu'à leur ouverture.
 
 ## 11. Informations et modifications
 

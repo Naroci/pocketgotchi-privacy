@@ -6,7 +6,7 @@ DRAFT — Not ready for publication. Marked information and privacy controls rem
 
 ## 1. Operator and scope
 
-PocketGotchi is operated by Mirco Hoelzenbein, an individual based in the Republic of Korea. Postal address: 서울 서초구 방배로15길 15, 402호, 06683, 대한민국 (Republic of Korea). Privacy and deletion contact: codenamedeko@gmail.com.
+PocketGotchi is developed and operated by Mirco Hoelzenbein, an individual based in the Republic of Korea. He is the person responsible for the app and the direct contact for privacy requests. Postal address: 서울 서초구 방배로15길 15, 402호, 06683, 대한민국 (Republic of Korea). Privacy and deletion contact: codenamedeko@gmail.com.
 
 This notice explains the information practices of the game, its optional online features and this privacy website for users in the United States. State-specific rights apply where the relevant law covers the operator, the processing and the resident. Operating as an individual or outside the United States does not by itself exclude applicable US law. The separate European notice remains available; choosing a notice does not waive rights under another applicable law.
 
@@ -28,7 +28,7 @@ Communications: if you contact us, we receive the contact details and message yo
 
 ## 4. Recipients and disclosures
 
-Google provides authentication, Firebase cloud storage and AdMob advertising. Actual Google/Firebase contracting entities and additional advertising partners: [US_GOOGLE_ENTITIES_AND_AD_PARTNERS]. Google processes Firebase customer data generally on the operator's behalf; Google's own account or advertising purposes may involve a separate role. An advertising partner is not automatically a service provider under every state privacy law. Hosting provider and relevant subcontractors: [HOSTING_ANBIETER]. Support email is handled through Gmail and relevant email delivery providers.
+Google provides authentication, Firebase cloud storage and AdMob advertising. Actual Google/Firebase contracting entities and additional advertising partners: [US_GOOGLE_ENTITIES_AND_AD_PARTNERS]. Google processes Firebase customer data generally on the operator's behalf; Google's own account or advertising purposes may involve a separate role. An advertising partner is not automatically a service provider under every state privacy law. Hosting provider and relevant subcontractors: GitHub Pages (GitHub). Support email is handled through Gmail and relevant email delivery providers.
 
 Identifiers and account/cloud information are disclosed to the relevant authentication and storage providers for the purposes above. Ad-related identifiers, network activity, approximate location, diagnostics and possible interest inferences may be disclosed to Google and configured advertising partners. Support messages go to the operator and communication providers. We may disclose necessary information in response to valid legal requirements, to protect rights and security, or at your direction, subject to applicable law.
 
@@ -44,7 +44,7 @@ You can contact codenamedeko@gmail.com about advertising choices. Where the law 
 
 ## 6. Browser signals and this website
 
-The provided privacy website embeds no ads, analytics, external fonts or tracking scripts and sets no cookies itself. It does not itself sell or share visitor information for cross-context behavioural advertising. The hosting provider receives IP addresses and technical request information for delivery and security. Provider, processing role, retention and policy link: [HOSTING_UND_LOGFRIST]. External websites are contacted only when you follow their links and have their own practices.
+The provided privacy website embeds no ads, analytics, external fonts or tracking scripts and sets no cookies itself. It does not itself sell or share visitor information for cross-context behavioural advertising. The hosting provider receives IP addresses and technical request information for delivery and security. Provider, processing role, retention and policy link: GitHub Pages logs visitor IP addresses for security purposes; we cannot state a fixed retention period for those logs. See [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) and [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). External websites are contacted only when you follow their links and have their own practices.
 
 This static page does not implement a browser Do Not Track response or an account-linked preference service. The app has no verified automatic processing of Global Privacy Control or other legally recognised universal opt-out signals. Do Not Track and Global Privacy Control are different. Where applicable law requires recognition of an opt-out signal, it must be honoured for the relevant sale/sharing or targeted-advertising processing. Actual implemented signal handling and its scope: [US_UNIVERSAL_OPT_OUT_HANDLING]. Visiting this page with a signal does not currently propagate a preference to your game account or Google ad choices. This limitation must be resolved before any processing that requires such functionality is enabled.
 
@@ -52,7 +52,7 @@ This static page does not implement a browser Do Not Track response or an accoun
 
 Local information remains until app data is cleared; uninstall and operating-system backup behaviour can differ. Cloud accounts and saves are generally kept to provide requested account functions. Actual inactivity, deletion and backup rules: [KONTO_UND_BACKUP_LOESCHFRISTEN]. Support retention: [SUPPORT_FRIST]. Advertising providers have purpose-dependent retention described in their policies. We cannot promise a single retention period for all Google information. Information should not be kept longer than reasonably necessary for disclosed purposes, subject to applicable legal obligations and permitted exceptions.
 
-We use access controls and encrypted network connections for supported online services, but no system is completely secure. The operator is in South Korea; providers may process information in the United States and other countries. Actual cloud region and provider locations: [US_PROCESSING_LOCATIONS]. This notice does not treat using the app as blanket consent to all international processing.
+We use access controls and encrypted network connections for supported online services, but no system is completely secure. The operator is in South Korea; providers may process information in the United States and other countries. Actual cloud region and provider locations: According to the developer, the Cloud Firestore database is located in the United States; its exact location identifier still needs confirmation. GitHub Pages and other Google services may process data in other locations, as described in their privacy notices. This notice does not treat using the app as blanket consent to all international processing.
 
 ## 8. State privacy rights and requests
 

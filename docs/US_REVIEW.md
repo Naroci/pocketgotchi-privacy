@@ -51,8 +51,9 @@ Bundesrecht, Staatengesetze, Schwellenwerte und Zielgruppe sind getrennt zu prü
    vor zulässiger Einwilligung auf bloße spätere E-Mail-Löschung stützen.
 6. Sensible Informationen einschließlich Zugangsdaten und Minderjährigendaten
    richtig einordnen. Fiktive Monster-DNA ist dagegen kein menschliches Genom.
-7. Hosting konkret wählen; Anbieterrollen, Protokolle und internationale
-   Verarbeitung einschließlich des südkoreanischen Betreibers transparent machen.
+7. GitHub Pages als Hostinganbieter ist eingetragen. Konkrete Protokollfristen
+   und die genaue US-Firestore-Standortkennung bleiben zu prüfen; internationale
+   Verarbeitung einschließlich des südkoreanischen Betreibers transparent halten.
 8. Fachkundige rechtliche Prüfung für tatsächlich bediente US-Staaten;
    bei Änderungen der App alle regionalen Fassungen gemeinsam aktualisieren.
 

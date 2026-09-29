@@ -2,9 +2,10 @@
 
 Separates lokales Repository für die EU-/DSGVO- und US-Datenschutztexte.
 Stand: 29.09.2026. **Beide Varianten sind Entwürfe mit offenen Freigabepunkten;
-nichts wurde veröffentlicht oder zu GitHub gepusht.**
+die aktuellen lokalen Änderungen wurden nicht zu GitHub gepusht.**
 
-Betreiber: Mirco Hoelzenbein (Privatperson, Südkorea), Datenschutzkontakt:
+Entwickler, Verantwortlicher und direkte Kontaktperson: Mirco Hoelzenbein
+(Privatperson, Südkorea). Datenschutzkontakt:
 `codenamedeko@gmail.com`. Vollständige Kontaktdaten stehen in den Erklärungen.
 Zielgruppe: hauptsächlich nostalgieinteressierte Erwachsene, auch Kinder.
 Deshalb enthalten beide Varianten offene Minderjährigen-/Altersvorgaben.
@@ -57,7 +58,7 @@ Vor Veröffentlichung:
 python3 tools/build_privacy_site.py --check --release
 ```
 
-Diese Prüfung schlägt derzeit absichtlich fehl: Host-/Vertragsangaben,
+Diese Prüfung schlägt derzeit absichtlich fehl: Vertragsangaben,
 Aufbewahrungsregeln, vollständige Löschwege und Alters-/Werbeprozesse sind noch
 offen. US-spezifisch müssen insbesondere tatsächliche Sale-/Sharing-Angaben,
 die zurückliegenden zwölf Monate, Opt-out-Signale und Elternprozesse geprüft
@@ -66,7 +67,7 @@ und erst dann die Entwurfsmarkierung entfernen. Der Check ist keine Rechtsprüfu
 
 ## Veröffentlichung
 
-GitHub Pages: Branch `main`, Ordner `/(root)`; siehe
+GitHub Pages: Branch `main`, Ordner `/(root)`; URL `https://naroci.github.io/pocketgotchi-privacy/`; siehe
 [GitHub Pages](docs/GITHUB_PAGES.md). Dieses Repository enthält keinen Spielcode,
 keine Spielstände und keine Firebase-/AdMob-Zugangsdaten. Die bestehenden
 Git-Metadaten und `.gitattributes` des Zielverzeichnisses wurden erhalten.

@@ -2,11 +2,11 @@
 
 작성일: 2026년 9월 29일. 앱: PocketGotchi (Android: com.myRandomCode.PocketGotchi).
 
-초안 — 운영자 정보 및 표시된 항목을 보완해야 합니다. 아직 공개용으로 확정되지 않았으며 GDPR 준수를 보증하는 문서가 아닙니다.
+초안 — 표시된 항목의 보완과 검토가 필요합니다. 아직 공개용으로 확정되지 않았으며 GDPR 준수를 보증하는 문서가 아닙니다.
 
 ## 1. 개인정보처리자 및 연락처
 
-개인정보처리자: Mirco Hoelzenbein. 국가를 포함한 우편 주소: 서울 서초구 방배로15길 15, 402호, 06683, 대한민국 (Republic of Korea). 개인정보 문의: codenamedeko@gmail.com. 해당하는 경우 개인정보 보호책임자 및 EU 대리인: [DSB_EU_VERTRETER_ODER_NICHT_ERFORDERLICH].
+PocketGotchi의 개발자이자 개인정보 처리에 대한 책임자는 개인 Mirco Hoelzenbein입니다. 개인정보 문의의 직접 담당자도 Mirco Hoelzenbein입니다. 우편 주소: 서울 서초구 방배로15길 15, 402호, 06683, 대한민국 (Republic of Korea). 이메일: codenamedeko@gmail.com. 별도의 개인정보 보호책임자가 필요한 경우의 정보: [DATENSCHUTZBEAUFTRAGTER_FALLS_ERFORDERLICH]. GDPR 제27조에 따른 EU 내 대리인이 필요한지는 별도로 검토하고 기재해야 합니다: [EU_VERTRETER_FALLS_ERFORDERLICH].
 
 ## 2. 적용 범위와 현재 버전
 
@@ -32,7 +32,7 @@ Google User Messaging Platform(UMP)이 필요한 동의 화면과 선택 기록�
 
 수신자는 인증·클라우드·광고를 제공하는 Google 법인과 해당 하위 수탁자입니다. Firebase 고객 데이터는 일반적으로 당사를 위한 수탁 처리 대상이며 Google 자체 계정·광고 목적에는 Google의 별도 책임과 약관도 적용됩니다. EEA 이용자에 대해서는 Google 방침에 명시된 범위에서 일반적으로 Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland가 책임을 집니다. 실제 Firebase 계약 상대방: [GOOGLE_CLOUD_VERTRAGSPARTNER]. 추가 광고 파트너는 공개 전에 확인하고 동의 화면에 표시해야 합니다: [ANZEIGENPARTNER_ODER_KEINE_WEITEREN].
 
-미국 등 EEA 외부에서 처리될 수 있습니다. 실제 클라우드 저장 지역: [FIRESTORE_REGION]. 적용되는 이전 보호조치: [TRANSFERGARANTIEN]. GDPR 제45조 적정성 결정 또는 제46조 표준계약조항 및 필요한 추가 조치가 적용될 수 있습니다. EU–미국 데이터 프라이버시 프레임워크는 현재 인증된 수신자와 적용 대상 이전에만 해당합니다. 보호조치 정보 또는 사본은 위 연락처로 요청할 수 있습니다. 유럽 내에서만 처리된다고 보장하지 않습니다.
+미국 등 EEA 외부에서 처리될 수 있습니다. 실제 클라우드 저장 지역: 미국(정확한 Firestore 위치 식별자는 추가 확인 필요). 적용되는 이전 보호조치: [TRANSFERGARANTIEN]. GDPR 제45조 적정성 결정 또는 제46조 표준계약조항 및 필요한 추가 조치가 적용될 수 있습니다. EU–미국 데이터 프라이버시 프레임워크는 현재 인증된 수신자와 적용 대상 이전에만 해당합니다. 보호조치 정보 또는 사본은 위 연락처로 요청할 수 있습니다. 유럽 내에서만 처리된다고 보장하지 않습니다.
 
 ## 7. 보관 및 삭제
 
@@ -50,7 +50,7 @@ Google User Messaging Platform(UMP)이 필요한 동의 화면과 선택 기록�
 
 ## 10. 문의 및 웹사이트
 
-문의의 연락처와 내용은 목적에 따라 제6조 제1항 (b), (c) 또는 (f)에 근거해 처리합니다. 필요한 정보만 보내 주세요. 이 페이지의 호스팅 제공자는 [HOSTING_ANBIETER]입니다. 호스팅 제공자는 페이지 제공·보안을 위해 IP 주소 및 기술적 요청 정보를 처리하며, 근거는 접근 가능하고 안전한 정보 페이지 운영이라는 정당한 이익에 따른 (f)입니다. 실제 제공자 및 로그 보관 기간: [HOSTING_UND_LOGFRIST]. 제공된 페이지는 광고, 분석, 외부 글꼴, 추적 스크립트를 포함하지 않고 자체 쿠키를 설정하지 않습니다. 외부 링크는 클릭할 때만 연결됩니다.
+문의의 연락처와 내용은 목적에 따라 제6조 제1항 (b), (c) 또는 (f)에 근거해 처리합니다. 필요한 정보만 보내 주세요. 이 페이지의 호스팅 제공자는 GitHub Pages(GitHub)입니다. 호스팅 제공자는 페이지 제공·보안을 위해 IP 주소 및 기술적 요청 정보를 처리하며, 근거는 접근 가능하고 안전한 정보 페이지 운영이라는 정당한 이익에 따른 (f)입니다. 실제 제공자 및 로그 보관 기간: GitHub Pages. GitHub는 보안 목적으로 방문자의 IP 주소를 기록합니다. 해당 로그의 고정 보관 기간은 확인되지 않았습니다. [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) 및 [GitHub 개인정보 처리방침](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) 참조. 제공된 페이지는 광고, 분석, 외부 글꼴, 추적 스크립트를 포함하지 않고 자체 쿠키를 설정하지 않습니다. 외부 링크는 클릭할 때만 연결됩니다.
 
 ## 11. 추가 정보 및 변경
 

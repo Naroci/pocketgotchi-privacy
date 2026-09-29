@@ -2,11 +2,11 @@
 
 作成日：2026年9月29日。アプリ：PocketGotchi（Android：com.myRandomCode.PocketGotchi）。
 
-草案 — 運営者情報と表示された未確定項目の補完が必要です。公開用として確定しておらず、GDPRへの適合を保証する文書ではありません。
+草案 — 表示された未確定項目の補完と確認が必要です。公開用として確定しておらず、GDPRへの適合を保証する文書ではありません。
 
 ## 1. 管理者と連絡先
 
-管理者：Mirco Hoelzenbein。国名を含む郵送先：서울 서초구 방배로15길 15, 402호, 06683, 대한민국 (Republic of Korea)。個人情報の連絡先：codenamedeko@gmail.com。必要な場合のデータ保護責任者・EU代理人：[DSB_EU_VERTRETER_ODER_NICHT_ERFORDERLICH]。
+PocketGotchiの開発者であり、個人データの処理について責任を負う者は個人のMirco Hoelzenbeinです。プライバシーに関する直接の連絡先もMirco Hoelzenbeinです。郵送先：서울 서초구 방배로15길 15, 402호, 06683, 대한민국 (Republic of Korea)。メール：codenamedeko@gmail.com。別のデータ保護責任者が必要な場合の情報：[DATENSCHUTZBEAUFTRAGTER_FALLS_ERFORDERLICH]。GDPR第27条に基づくEU内の代理人が必要かどうかは別途確認し、必要なら記載します：[EU_VERTRETER_FALLS_ERFORDERLICH]。
 
 ## 2. 対象と現在のバージョン
 
@@ -32,7 +32,7 @@ Google User Messaging Platform（UMP）が必要な同意画面と選択の記�
 
 提供先は認証、クラウド、広告を担当するGoogle各社および該当する再委託先です。Firebaseの顧客データは通常当方のために委託処理されます。Google自身のアカウント・広告目的には同社の責任と規約も適用されます。EEAの利用者については、同社方針に記載された範囲で一般にGoogle Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irelandが管理者となります。当方のFirebase契約先：[GOOGLE_CLOUD_VERTRAGSPARTNER]。追加の広告パートナーは公開前に確認し、同意画面に表示する必要があります：[ANZEIGENPARTNER_ODER_KEINE_WEITEREN]。
 
-米国などEEA外で処理される場合があります。実際のクラウド保存地域：[FIRESTORE_REGION]。適用する移転保護措置：[TRANSFERGARANTIEN]。第45条の十分性認定、または第46条の標準契約条項と必要な追加措置などが考えられます。EU–米国データ・プライバシー・フレームワークは現在認証されている提供先および対象移転に限られます。適用措置の情報や写しは連絡先に請求できます。欧州内のみでの処理は保証しません。
+米国などEEA外で処理される場合があります。実際のクラウド保存地域：米国（Firestoreの正確なロケーションIDは未確認）。適用する移転保護措置：[TRANSFERGARANTIEN]。第45条の十分性認定、または第46条の標準契約条項と必要な追加措置などが考えられます。EU–米国データ・プライバシー・フレームワークは現在認証されている提供先および対象移転に限られます。適用措置の情報や写しは連絡先に請求できます。欧州内のみでの処理は保証しません。
 
 ## 7. 保存期間と削除
 
@@ -50,7 +50,7 @@ Google User Messaging Platform（UMP）が必要な同意画面と選択の記�
 
 ## 10. 問い合わせとウェブサイト
 
-問い合わせの連絡先と内容は、目的に応じ第6条1項(b)、(c)、(f)に基づき対応のため処理します。必要な情報のみ送ってください。本ページのホスティング提供者は[HOSTING_ANBIETER]です。提供者はページの配信・保護のためIPアドレスや技術的リクエスト情報を処理し、根拠はアクセス可能で安全な情報ページの提供という正当な利益による(f)です。実際のホスティング提供者とログ保存期間：[HOSTING_UND_LOGFRIST]。提供するページは広告、解析、外部フォント、追跡スクリプトを組み込まず、独自のCookieを設定しません。外部リンク先への接続はクリックしたときのみ行います。
+問い合わせの連絡先と内容は、目的に応じ第6条1項(b)、(c)、(f)に基づき対応のため処理します。必要な情報のみ送ってください。本ページのホスティング提供者はGitHub Pages（GitHub）です。提供者はページの配信・保護のためIPアドレスや技術的リクエスト情報を処理し、根拠はアクセス可能で安全な情報ページの提供という正当な利益による(f)です。実際のホスティング提供者とログ保存期間：GitHub Pages。GitHubはセキュリティ目的で訪問者のIPアドレスを記録します。これらのログの一定の保存期間は確認できていません。[GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)および[GitHubのプライバシー声明](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)をご覧ください。提供するページは広告、解析、外部フォント、追跡スクリプトを組み込まず、独自のCookieを設定しません。外部リンク先への接続はクリックしたときのみ行います。
 
 ## 11. 関連情報と変更
 

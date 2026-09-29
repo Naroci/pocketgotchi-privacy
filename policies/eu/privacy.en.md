@@ -2,11 +2,11 @@
 
 Updated: 29 September 2026. App: PocketGotchi (Android: com.myRandomCode.PocketGotchi).
 
-DRAFT — Controller details and marked information are missing. This version is not cleared for publication and does not certify GDPR compliance.
+DRAFT — Marked information and reviews remain open. This version is not cleared for publication and does not certify GDPR compliance.
 
 ## 1. Controller and contact
 
-Controller: Mirco Hoelzenbein. Postal address including country: 서울 서초구 방배로15길 15, 402호, 06683, 대한민국 (Republic of Korea). Privacy contact: codenamedeko@gmail.com. Data protection officer and EU representative, where applicable: [DSB_EU_VERTRETER_ODER_NICHT_ERFORDERLICH].
+PocketGotchi is developed by Mirco Hoelzenbein, an individual who is responsible for its personal-data processing. He is the direct contact for privacy requests. Postal address: 서울 서초구 방배로15길 15, 402호, 06683, 대한민국 (Republic of Korea). Email: codenamedeko@gmail.com. Details of a separate data protection officer, if required: [DATENSCHUTZBEAUFTRAGTER_FALLS_ERFORDERLICH]. A representative established in the EU may be required under GDPR Article 27 and must be assessed and identified separately: [EU_VERTRETER_FALLS_ERFORDERLICH].
 
 ## 2. Scope and current version
 
@@ -36,7 +36,7 @@ Recipients include Google entities providing authentication, cloud storage and a
 
 ## 8. International processing
 
-Google services may process data outside the EEA, including in the United States. Actual cloud storage region: [FIRESTORE_REGION]. Applicable transfer safeguards: [TRANSFERGARANTIEN]. These may include an applicable adequacy decision under GDPR Article 45 or standard contractual clauses and necessary supplementary measures under Article 46. Reliance on the EU-US Data Privacy Framework requires a currently certified recipient and covered transfer. Contact us for information or copies of applicable safeguards. Exclusively European processing is not promised.
+Google services may process data outside the EEA, including in the United States. Actual cloud storage region: United States (the exact Firestore location identifier still needs confirmation). Applicable transfer safeguards: [TRANSFERGARANTIEN]. These may include an applicable adequacy decision under GDPR Article 45 or standard contractual clauses and necessary supplementary measures under Article 46. Reliance on the EU-US Data Privacy Framework requires a currently certified recipient and covered transfer. Contact us for information or copies of applicable safeguards. Exclusively European processing is not promised.
 
 ## 9. Retention and deletion
 
@@ -56,7 +56,7 @@ Audience and minimum age: The game primarily targets adults who enjoy nostalgic 
 
 When you contact us, we process your contact details and message to handle the request under Article 6(1)(b), (c) or (f), depending on its purpose. Please only supply necessary information.
 
-This page is hosted by [HOSTING_ANBIETER]. The provider processes IP addresses and technical request information to deliver and protect it under Article 6(1)(f), reflecting our interest in an accessible, secure information page. Actual hosting provider and log retention: [HOSTING_UND_LOGFRIST]. The provided page embeds no ads, analytics, external fonts or tracking scripts and sets no cookies itself. External links are contacted only when followed.
+This page is hosted by GitHub Pages (GitHub). The provider processes IP addresses and technical request information to deliver and protect it under Article 6(1)(f), reflecting our interest in an accessible, secure information page. Actual hosting provider and log retention: GitHub Pages; GitHub logs visitor IP addresses for security purposes. We cannot state a fixed retention period for those logs. See [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) and [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). The provided page embeds no ads, analytics, external fonts or tracking scripts and sets no cookies itself. External links are contacted only when followed.
 
 ## 13. Further information and updates
 

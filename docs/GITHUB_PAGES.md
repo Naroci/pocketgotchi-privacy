@@ -1,9 +1,9 @@
 # GitHub Pages: beide regionalen Fassungen
 
-Dieses Repository enthält Markdown-Quellen, Prüfhinweise und das generierte
+Dieses Repository enthält Markdown-Quellen, Prüfhinweise und die generierten
 Webseiten-Dateien im Repository-Root. Die bestehende Git-Konfiguration wird beim lokalen
-Verschieben nicht geändert. Ein lokaler Repository-Ordner ist noch keine öffentliche
-Website; es wurde nichts gepusht oder aktiviert.
+Verschieben nicht geändert. Die aktuellen lokalen Änderungen sind noch nicht gepusht; eine bereits
+erreichbare Website kann deshalb einen älteren Stand zeigen.
 
 ## Veröffentlichung nach Vervollständigung
 
@@ -29,17 +29,17 @@ Website; es wurde nichts gepusht oder aktiviert.
 ## Geplante URL-Struktur
 
 ```text
-https://BENUTZERNAME.github.io/pocketgotchi-privacy/
-https://BENUTZERNAME.github.io/pocketgotchi-privacy/privacy/eu/de/
-https://BENUTZERNAME.github.io/pocketgotchi-privacy/privacy/eu/en/
-https://BENUTZERNAME.github.io/pocketgotchi-privacy/privacy/eu/fr/
-https://BENUTZERNAME.github.io/pocketgotchi-privacy/privacy/eu/ko/
-https://BENUTZERNAME.github.io/pocketgotchi-privacy/privacy/eu/ja/
-https://BENUTZERNAME.github.io/pocketgotchi-privacy/privacy/us/en/
+https://naroci.github.io/pocketgotchi-privacy/
+https://naroci.github.io/pocketgotchi-privacy/privacy/eu/de/
+https://naroci.github.io/pocketgotchi-privacy/privacy/eu/en/
+https://naroci.github.io/pocketgotchi-privacy/privacy/eu/fr/
+https://naroci.github.io/pocketgotchi-privacy/privacy/eu/ko/
+https://naroci.github.io/pocketgotchi-privacy/privacy/eu/ja/
+https://naroci.github.io/pocketgotchi-privacy/privacy/us/en/
 ```
 
-Beispiele, keine bereits erreichbaren Links. `BENUTZERNAME` durch den wirklichen
-GitHub-Accountnamen ersetzen. Der gemeinsame Einstieg verlinkt beide Regionen;
+Dies ist die URL-Struktur für den Repository-Account `Naroci`. Nach jedem
+Push die Erreichbarkeit und den ausgelieferten Stand gesondert prüfen. Der gemeinsame Einstieg verlinkt beide Regionen;
 es gibt keine automatische Geolokalisierung und keine Einschränkung von Rechten
 durch die Seitenauswahl. Nach Veröffentlichung die verifizierte URL in AdMob,
 Play Console und im Spiel eintragen. Regionale AdMob-Meldungen und Opt-out-
@@ -48,9 +48,9 @@ Mechanismen müssen zusätzlich korrekt konfiguriert werden.
 ## Firebase als Alternative
 
 `firebase.privacy.json` verweist noch auf den früheren Ordner `public/` und
-+darf in diesem Stand nicht verwendet werden. Für Firebase Hosting zunächst einen
-+getrennten Ausgabeordner aus den Webseiten-Dateien aufbauen, dessen `public`-Pfad
-+eintragen und unabhängig von den Quelltexten prüfen. Die Vorlage zielt auf eine
+darf in diesem Stand nicht verwendet werden. Für Firebase Hosting zunächst einen
+getrennten Ausgabeordner aus den Webseiten-Dateien aufbauen, dessen `public`-Pfad
+eintragen und unabhängig von den Quelltexten prüfen. Die Vorlage zielt auf eine
 separaten Site `pocketgotchi-918ab-privacy`. Site-Anlage und Deployment erst nach
 Freigabe; die CLI-Befehle stehen in [EU_NOTES](EU_NOTES.md). Keine Functions sind
 in diesem Repository enthalten. GitHub Pages übernimmt die Firebase-HTTP-Header

@@ -1,3 +1,19 @@
+## GitHub Pages und Firebase-Land konkretisiert – 29.09.2026
+
+Alle fünf EU-Fassungen und die US-Fassung nennen GitHub Pages als Hoster und
+beschreiben GitHubs belegte Sicherheitsprotokollierung ohne erfundene Löschfrist.
+Cloud Firestore ist laut Nutzer in den USA; die genaue Standortkennung bleibt
+offen. Weitere Vertrags-, Minderjährigen-, Werbe- und Löschangaben sind nicht
+aus GitHub Pages oder dem Speicherland ableitbar und bleiben Freigabepunkte.
+
+## Verantwortlicher konkretisiert – 29.09.2026
+
+Alle fünf EU-Sprachfassungen und die US-Fassung benennen Mirco Hoelzenbein
+ausdrücklich als Entwickler, Verantwortlichen und direkten Datenschutzkontakt.
+Datenschutzbeauftragter und ein gegebenenfalls nach Art. 27 DSGVO erforderlicher,
+in der EU niedergelassener Vertreter bleiben getrennte Prüfpunkte. Der Generator
+wurde nach der Textänderung erneut ausgeführt und abgeglichen.
+
 ## Root-Umzug für GitHub Pages – 29.09.2026
 
 Der Inhalt von `public/` wurde in den Repository-Root verschoben: `index.html`,

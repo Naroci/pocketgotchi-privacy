@@ -2,11 +2,11 @@
 
 Stand: 29. September 2026. App: PocketGotchi (Android: com.myRandomCode.PocketGotchi).
 
-ENTWURF — Betreiberangaben und markierte Angaben fehlen. Diese Fassung ist noch nicht zur Veröffentlichung freigegeben und keine Bestätigung der DSGVO-Konformität.
+ENTWURF — Markierte Angaben und Prüfungen stehen noch aus. Diese Fassung ist noch nicht zur Veröffentlichung freigegeben und keine Bestätigung der DSGVO-Konformität.
 
 ## 1. Verantwortlicher und Kontakt
 
-Verantwortlicher: Mirco Hoelzenbein. Postanschrift einschließlich Land: 서울 서초구 방배로15길 15, 402호, 06683, 대한민국 (Republic of Korea). Datenschutzkontakt: codenamedeko@gmail.com. Datenschutzbeauftragter und gegebenenfalls EU-Vertreter: [DSB_EU_VERTRETER_ODER_NICHT_ERFORDERLICH].
+Entwickler und Verantwortlicher für PocketGotchi ist Mirco Hoelzenbein (Privatperson). Er ist die direkte Ansprechperson für Datenschutzanfragen. Postanschrift: 서울 서초구 방배로15길 15, 402호, 06683, 대한민국 (Republic of Korea). E-Mail: codenamedeko@gmail.com. Angaben zu einem gegebenenfalls erforderlichen gesonderten Datenschutzbeauftragten: [DATENSCHUTZBEAUFTRAGTER_FALLS_ERFORDERLICH]. Ein nach Art. 27 DSGVO gegebenenfalls erforderlicher Vertreter innerhalb der EU ist getrennt zu prüfen und anzugeben: [EU_VERTRETER_FALLS_ERFORDERLICH].
 
 ## 2. Geltungsbereich und aktueller Stand
 
@@ -36,7 +36,7 @@ Empfänger sind die mit Anmeldung, Cloud-Speicherung und Werbung betrauten Googl
 
 ## 8. Internationale Verarbeitung
 
-Google-Dienste können Daten auch außerhalb des EWR verarbeiten, beispielsweise in den USA. Tatsächliche Cloud-Speicherregion: [FIRESTORE_REGION]. Verwendete Garantien für die jeweiligen Übermittlungen: [TRANSFERGARANTIEN]. In Betracht kommen ein anwendbarer Angemessenheitsbeschluss gemäß Art. 45 DSGVO oder Standardvertragsklauseln mit erforderlichen ergänzenden Maßnahmen gemäß Art. 46 DSGVO. Ein EU-US-Data-Privacy-Framework-Verweis gilt nur für aktuell zertifizierte Empfänger und erfasste Übermittlungen. Informationen bzw. Kopien der einschlägigen Garantien kannst du beim Datenschutzkontakt anfordern. Eine ausschließlich europäische Datenverarbeitung wird nicht zugesichert.
+Google-Dienste können Daten auch außerhalb des EWR verarbeiten, beispielsweise in den USA. Tatsächliche Cloud-Speicherregion: USA (die genaue Firestore-Standortkennung ist noch zu bestätigen). Verwendete Garantien für die jeweiligen Übermittlungen: [TRANSFERGARANTIEN]. In Betracht kommen ein anwendbarer Angemessenheitsbeschluss gemäß Art. 45 DSGVO oder Standardvertragsklauseln mit erforderlichen ergänzenden Maßnahmen gemäß Art. 46 DSGVO. Ein EU-US-Data-Privacy-Framework-Verweis gilt nur für aktuell zertifizierte Empfänger und erfasste Übermittlungen. Informationen bzw. Kopien der einschlägigen Garantien kannst du beim Datenschutzkontakt anfordern. Eine ausschließlich europäische Datenverarbeitung wird nicht zugesichert.
 
 ## 9. Speicherdauer und Löschung
 
@@ -56,7 +56,7 @@ Zielgruppe und Mindestalter: Das Spiel richtet sich primär an Erwachsene, die n
 
 Wenn du uns kontaktierst, verarbeiten wir deine Kontaktangaben und Nachricht zur Bearbeitung deines Anliegens, je nach Inhalt auf Grundlage von Art. 6 Abs. 1 lit. b, c oder f DSGVO. Bitte übermittle nur erforderliche Angaben.
 
-Diese Seite wird bei [HOSTING_ANBIETER] bereitgestellt. Beim Abruf verarbeitet der Hostinganbieter insbesondere IP-Adresse und technische Anfragedaten zur Auslieferung und Absicherung; Grundlage ist Art. 6 Abs. 1 lit. f DSGVO, berechtigtes Interesse an einer erreichbaren und sicheren Informationsseite. Tatsächlicher Hostinganbieter und Protokoll-Aufbewahrung: [HOSTING_UND_LOGFRIST]. Die bereitgestellte Seite bindet keine Werbung, Analyseprogramme, externen Schriftarten oder Tracking-Skripte ein und setzt selbst keine Cookies. Externe Links werden erst beim Anklicken aufgerufen.
+Diese Seite wird bei GitHub Pages (GitHub) bereitgestellt. Beim Abruf verarbeitet der Hostinganbieter insbesondere IP-Adresse und technische Anfragedaten zur Auslieferung und Absicherung; Grundlage ist Art. 6 Abs. 1 lit. f DSGVO, berechtigtes Interesse an einer erreichbaren und sicheren Informationsseite. Tatsächlicher Hostinganbieter und Protokoll-Aufbewahrung: GitHub Pages; GitHub protokolliert Besucher-IP-Adressen zu Sicherheitszwecken. Eine feste Aufbewahrungsfrist für diese Protokolle ist uns nicht bekannt. Siehe [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) und [GitHubs Datenschutzhinweise](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). Die bereitgestellte Seite bindet keine Werbung, Analyseprogramme, externen Schriftarten oder Tracking-Skripte ein und setzt selbst keine Cookies. Externe Links werden erst beim Anklicken aufgerufen.
 
 ## 13. Weitere Informationen und Änderungen
 

@@ -1,8 +1,8 @@
 # Historie und EU-Freigabehinweise
 
 Hinweis: Die folgenden Pfade und Firebase-Befehle dokumentieren den Stand
-+vor dem Umzug von `public/` in den Repository-Root. Maßgeblich sind README und
-+GITHUB_PAGES.
+vor dem Umzug von `public/` in den Repository-Root. Maßgeblich sind README und
+GITHUB_PAGES.
 
 Diese Hinweise sind auf die neue Ordnerstruktur angepasst. Aktueller Einstieg:
 [README](../README.md). Eine US-Fassung wurde separat ergänzt.
@@ -13,8 +13,7 @@ Stand 29.09.2026. **Vorbereiteter, nicht veröffentlichungsfertiger Entwurf.**
 Der Nutzer hat sich als Privatperson Mirco Hoelzenbein mit Anschrift in Südkorea
 benannt; diese Angaben sind in allen fünf Quellen eingetragen. Datenschutzkontakt ist `codenamedeko@gmail.com`. Der Nutzer nennt vorwiegend
 nostalgieinteressierte Erwachsene, aber auch Kinder als Zielgruppe. Mindestalter
-und die technische Umsetzung des Schutzes Minderjähriger bleiben offen. GitHub Pages wurde als zusätzliche Hostingoption
-gewünscht, die endgültige Wahl ist noch offen. [GitHub-Pages-Anleitung](GITHUB_PAGES.md).
+und die technische Umsetzung des Schutzes Minderjähriger bleiben offen. GitHub Pages ist für diese Datenschutzseiten als Hostinganbieter gewählt. [GitHub-Pages-Anleitung](GITHUB_PAGES.md).
 Eine Standardvorlage allein macht weder App noch Werbekonfiguration DSGVO-konform.
 Betreiberangaben, tatsächliche Verträge, Zielgruppe und Löschabläufe müssen zum
 Text passen. Sprachfassungen einschließlich fr/ko/ja benötigen fachkundige Abnahme;
@@ -24,8 +23,8 @@ sie ersetzen keine zusätzlich erforderlichen nationalen Datenschutzangaben.
 
 - Bearbeitbare Erklärungen: `policies/eu/privacy.de.md`, `policies/eu/privacy.en.md`, `policies/eu/privacy.fr.md`,
   `policies/eu/privacy.ko.md`, `policies/eu/privacy.ja.md` vom Repository-Stamm.
-- Generierte HTML-Seiten: `public/privacy/eu/{de,en,fr,ko,ja}/index.html`.
-- Gemeinsamer Einstieg: `public/privacy/index.html`.
+- Generierte HTML-Seiten: `privacy/eu/{de,en,fr,ko,ja}/index.html`.
+- Gemeinsamer Einstieg: `index.html`.
 - Getrennte Hostingkonfiguration: `firebase.privacy.json`. Es werden keine Spielfunktionen mitdeployt.
 
 Die Texte beschreiben den aktuellen Teststand. Keine Produktions-SSV-/Kaufaktivität
@@ -35,27 +34,27 @@ mit AdMob-Abschnitt kann in AdMob und Play Console verlinkt werden.
 
 ## Noch benötigte Angaben
 
-In allen fünf Quellen die identischen Platzhalter ersetzen:
+Die verbleibenden Angaben für alle fünf Sprachfassungen prüfen:
 
 | Platzhalter | Benötigte Tatsache |
 | --- | --- |
 | Name / Anschrift (bereits eingetragen) | Mirco Hoelzenbein als Privatperson; vom Nutzer angegebene Anschrift in Südkorea |
 | Datenschutz-E-Mail (bereits eingetragen) | `codenamedeko@gmail.com` für Anfragen und Löschung |
-| DSB_EU_VERTRETER_ODER_NICHT_ERFORDERLICH | Konkrete Kontakte, soweit erforderlich; sonst sachlich zutreffenden Satz einsetzen |
+| DATENSCHUTZBEAUFTRAGTER_FALLS_ERFORDERLICH / EU_VERTRETER_FALLS_ERFORDERLICH | Gesonderte Rollen prüfen. Mirco Hoelzenbein ist Entwickler, Verantwortlicher und direkter Kontakt; ein gegebenenfalls nach Art. 27 DSGVO erforderlicher EU-Vertreter muss in der EU niedergelassen und separat benannt werden. |
 | GOOGLE_CLOUD_VERTRAGSPARTNER | Vertragspartner aus tatsächlich akzeptierten Firebase-/Cloud-Verträgen |
 | ANZEIGENPARTNER_ODER_KEINE_WEITEREN | AdMob-Auswahl einschließlich Bidding/Mediation/Google-Ad-Technologieanbieter prüfen; keine Partnerfreiheit aus fehlenden Adaptern ableiten |
-| FIRESTORE_REGION / TRANSFERGARANTIEN | Tatsächliche Datenbankregion und zutreffende Übermittlungsgrundlagen; nicht die Functions-Region als Datenbankregion ausgeben |
+| Firestore-Standortkennung / TRANSFERGARANTIEN | USA laut Nutzer; genaue Firestore-Standortkennung und anwendbare Übermittlungsgrundlagen noch prüfen. Die Functions-Region beweist die Datenbankregion nicht. |
 | KONTO_UND_BACKUP_LOESCHFRISTEN | Verbindlicher, technisch umgesetzter Lösch-/Inaktivitäts-/Backupplan |
 | SUPPORT_FRIST | Tatsächliche Aufbewahrung von Kontaktanfragen |
 | AUFSICHTSBEHOERDE | Für den echten Betreibersitz zuständige Aufsicht |
 | MINDESTALTER_UND_KINDERKONZEPT | Gemischte Zielgruppe laut Nutzer, Schwerpunkt Erwachsene; Mindestalter, Play-Families-/AdMob-Kinderkonfiguration und erforderliche Alters-/Elternprozesse festlegen |
-| HOSTING_ANBIETER / HOSTING_UND_LOGFRIST | Gewählter Anbieter/Vertragspartner und belegte Hosting-/Loggingfristen; GitHub Pages oder Firebase erst nach Entscheidung konkret einsetzen |
+| GitHub-Pages-Protokolle | GitHub Pages ist in allen Fassungen eingetragen. GitHub dokumentiert IP-Protokollierung aus Sicherheitsgründen, aber hier ist keine feste Frist belegbar; deshalb keine Frist erfinden. |
 
 Nur Platzhalter zu entfernen genügt nicht: veränderte Funktionen oder rechtliche
 Zuordnungen müssen in allen Texten inhaltlich aktualisiert werden. Die
 Entwurfszeile erst nach dieser Prüfung entfernen.
 
-## Öffentlicher Link über Firebase Hosting
+## Historische Alternative: Firebase Hosting
 
 Option A: eine **eigene Hosting-Site** im bereits verwendeten Firebase-Projekt
 `pocketgotchi-918ab`. Damit werden bestehende Webseiten nicht überschrieben.
