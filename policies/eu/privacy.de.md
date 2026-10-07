@@ -1,6 +1,6 @@
 # Datenschutzerklärung für PocketGotchi
 
-Stand: 29. September 2026. App: PocketGotchi (Android: com.myRandomCode.PocketGotchi).
+Stand: 7. Oktober 2026. App: PocketGotchi (Android: com.myRandomCode.PocketGotchi).
 
 ENTWURF — Markierte Angaben und Prüfungen stehen noch aus. Diese Fassung ist noch nicht zur Veröffentlichung freigegeben und keine Bestätigung der DSGVO-Konformität.
 
@@ -10,7 +10,7 @@ Entwickler und Verantwortlicher für PocketGotchi ist Mirco Hoelzenbein (Privatp
 
 ## 2. Geltungsbereich und aktueller Stand
 
-Diese Erklärung beschreibt das Spiel, seine optionalen Onlinefunktionen und die Webseite mit dieser Erklärung. Du kannst ohne Google-Anmeldung lokal spielen. In der aktuellen Android-Testfassung sind freiwillige Google-Anmeldung, Cloud-Spielstände und ein ausdrücklich gekennzeichneter AdMob-Werbetest vorgesehen. Produktive Werbebelohnungen und In-App-Käufe sind noch nicht freigeschaltet. Vor deren Einführung wird diese Erklärung aktualisiert. Auch eine Google-Testanzeige kann Verbindungen zu Google und die nachstehend beschriebenen Datenverarbeitungen auslösen.
+Du kannst PocketGotchi lokal ohne Anmeldung spielen. Freiwillige Google-Anmeldung und die bisherige Firestore-Spielstandsicherung sind im Client vorhanden. Der eigene Server für Werbebelohnungen und Spieldaten ist über HTTPS erreichbar; die Clientanbindung und die Abnahme echter AdMob-Rückmeldungen sind noch nicht vollständig abgeschlossen. Testanzeigen können bereits Daten an Google übertragen. Käufe und weitere vorbereitete Angebote sind noch nicht produktiv freigegeben.
 
 ## 3. Lokales Spiel und Gerätespeicherung
 
@@ -23,6 +23,8 @@ Bei Nutzung dieser Funktionen verarbeiten Google und wir Anmeldebestätigungen, 
 ## 5. Google AdMob und Einwilligungsverwaltung
 
 Bei Aufruf einer Anzeige können über Google Mobile Ads insbesondere IP-Adresse und daraus abgeleiteter ungefährer Standort, Werbe-ID und weitere Geräte-/Kontokennungen, App- und Geräteinformationen, Anzeigenaufrufe, Klicks, Videowiedergaben sowie Diagnose- und Leistungsdaten verarbeitet und an Google übermittelt werden. Zwecke sind Auslieferung und gegebenenfalls Personalisierung von Werbung, Reichweiten-/Erfolgsmessung, Abrechnung sowie Schutz vor ungültigem Traffic und Betrug. Personalisierung kann Interessenprofile verwenden. Die konkrete Verarbeitung hängt von Einwilligung, Region, Geräteeinstellungen und Anzeigenkonfiguration ab. Nicht personalisierte Anzeigen sind nicht automatisch frei von einwilligungspflichtigen Gerätezugriffen oder Datenverarbeitung.
+
+Die neu vorbereitete App-Version fordert ausschließlich nicht personalisierte Anzeigen an. Interessenbasierte Personalisierung wird dabei nicht angefordert. Einwilligungs- und Minderjährigenschutzpflichten bleiben bestehen; die Abnahme auf einem echten Gerät mit Produktionsanbindung steht aus.
 
 Google User Messaging Platform (UMP) verwaltet den erforderlichen Einwilligungsdialog und speichert die Auswahl. Über Einstellungen → Werbung → Werbe-Datenschutz kannst du die angebotenen Datenschutzoptionen erneut öffnen, wenn Google diesen Einstieg verlangt. Dort kannst du Einwilligungen für die Zukunft ändern oder widerrufen. Der Widerruf berührt nicht die Rechtmäßigkeit der vorherigen Verarbeitung. Ein Aufruf dieser Erklärung oder eine Anmeldung gilt nicht als Werbeeinwilligung. Das lokale Spiel bleibt ohne Zustimmung zur personalisierten Werbung möglich. Die Werbe-ID kann zusätzlich in den Android-Einstellungen zurückgesetzt oder gelöscht werden; dies ersetzt keinen Widerruf im Einwilligungsdialog.
 
@@ -40,7 +42,7 @@ Google-Dienste können Daten auch außerhalb des EWR verarbeiten, beispielsweise
 
 ## 9. Speicherdauer und Löschung
 
-Lokale Daten bleiben bis zum Löschen der App-Daten erhalten; Deinstallation und Geräte-Backups können plattformabhängig abweichen. Cloud-Konto und Sicherung bleiben grundsätzlich für die genutzte Kontofunktion gespeichert. Konkrete Regeln für inaktive Konten, Löschanträge und Sicherungskopien: [KONTO_UND_BACKUP_LOESCHFRISTEN]. Kontaktanfragen werden bis zur Erledigung und danach nur soweit erforderlich aufbewahrt: [SUPPORT_FRIST]. Für Googles eigene Werbeverarbeitung gelten dessen zweckabhängige Aufbewahrungsregeln; wir können keine einheitliche Löschfrist für sämtliche Google-Daten zusagen. Gesetzliche Pflichten oder erforderliche Rechtsverteidigung können eine begrenzte weitere Speicherung rechtfertigen.
+Lokale Daten bleiben bis zum Löschen der App-Daten erhalten; Deinstallation und Geräte-Backups können plattformabhängig abweichen. Cloud-Konto und Sicherung bleiben grundsätzlich für die genutzte Kontofunktion gespeichert. Konkrete Regeln für inaktive Konten, Löschanträge und Sicherungskopien: [LOESCHMARKIERUNGEN_SICHERHEIT_INAKTIVE_KONTEN]. Kontaktanfragen werden bis zur Erledigung und danach nur soweit erforderlich aufbewahrt: 30 Tage nach erkanntem Abschluss, siehe automatische Bereinigung unten. Für Googles eigene Werbeverarbeitung gelten dessen zweckabhängige Aufbewahrungsregeln; wir können keine einheitliche Löschfrist für sämtliche Google-Daten zusagen. Gesetzliche Pflichten oder erforderliche Rechtsverteidigung können eine begrenzte weitere Speicherung rechtfertigen.
 
 Löschanträge für Konto und Cloud-Daten richtest du an den oben genannten Kontakt. Bitte nenne PocketGotchi und eine zur Zuordnung erforderliche Kontoinformation, aber keine Passwörter oder Anmeldetokens. Eine angemessene Identitätsprüfung kann erforderlich sein. Aktuell gibt es im Spiel noch keine Funktion zur vollständigen Kontolöschung. Abmelden, Widerruf einer Werbeeinwilligung oder Deinstallation löschen serverseitige Daten nicht automatisch.
 
@@ -50,7 +52,7 @@ Unter den gesetzlichen Voraussetzungen kannst du Auskunft, Berichtigung, Löschu
 
 ## 11. Kinder und automatisierte Entscheidungen
 
-Zielgruppe und Mindestalter: Das Spiel richtet sich primär an Erwachsene, die nostalgische Spiele mögen, steht aber auch Kindern offen. Verbindliches Mindestalter und Regelungen für minderjährige Nutzer: [MINDESTALTER_UND_KINDERKONZEPT]. Soweit bei Kindern eine Einwilligung erforderlich ist, sind die jeweils geltenden Altersgrenzen und gegebenenfalls die Zustimmung der Sorgeberechtigten zu beachten. Für Deutschland liegt die Grenze nach Art. 8 DSGVO grundsätzlich bei 16 Jahren, wenn dessen Voraussetzungen erfüllt sind. Kinder-/Alterskonfiguration und Werbebeschränkungen sind vor Freigabe zu bestätigen; eine funktionsfähige Altersprüfung wird hier nicht behauptet. Wir treffen keine ausschließlich automatisierten Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung im Sinne von Art. 22 DSGVO. Die mögliche Werbeprofilbildung ist unter Abschnitt 5 beschrieben.
+Die vorgesehene Startzielgruppe ist ab 13 Jahren; PocketGotchi soll sich nicht an unter 13-Jährige richten. Dies ersetzt keine Prüfung der tatsächlichen Gestaltung und Nutzung. Für 13–17-Jährige müssen altersgerechte Werbeinhalte, eingeschränkte Personalisierung und gegebenenfalls elterliche Zustimmung berücksichtigt werden. In Deutschland liegt die Grenze bei einwilligungsbasierter Verarbeitung im Anwendungsbereich von Art. 8 DSGVO grundsätzlich bei 16 Jahren; andere Mitgliedstaaten können sie bis auf 13 senken. Altersabfrage und technische Freigaben sind noch nicht abgenommen: [JUGENDSCHUTZ_13_PLUS_UMSETZUNG]. Ein funktionierender Altersnachweis oder Elternprozess wird nicht behauptet. Hinweise auf Daten unter 13-Jähriger können an die genannte Kontaktadresse gerichtet werden.
 
 ## 12. Kontakt und Webseite
 
@@ -63,3 +65,15 @@ Diese Seite wird bei GitHub Pages (GitHub) bereitgestellt. Beim Abruf verarbeite
 [Google-Datenschutz](https://policies.google.com/privacy?hl=de), [Google auf Partner-Websites und in Apps](https://policies.google.com/technologies/partner-sites?hl=de), [Googles Aufbewahrung](https://policies.google.com/technologies/retention?hl=de), [Firebase-Datenschutz](https://firebase.google.com/support/privacy) und [Google-Werbeeinstellungen](https://myadcenter.google.com/) erläutern die jeweiligen Dienste.
 
 Wir passen diese Erklärung an tatsächliche Funktions- und Rechtsänderungen an. Wesentliche Änderungen werden in geeigneter Weise mitgeteilt; erforderliche neue Einwilligungen werden gesondert eingeholt.
+
+## Eigener Spielserver, Werbebelege und Löschung
+
+Firebase Authentication bleibt für Anmeldung und Identitätsprüfung zuständig. Unser eigener Server prüft Firebase-ID-Tokens einschließlich Projektbindung und Widerrufstatus. Er verarbeitet die Firebase-Kennung, technische Verbindungsdaten und die angeforderten Spieldaten. Neue serverseitige Währungen, Inventare, Prämien, Berechtigungen und Kaufprüfungen werden in einer eigenen MySQL-Datenbank verarbeitet. Die bisherige Client-Spielstandsicherung verwendet noch Firestore; eine vollständige Umstellung auf MySQL wird erst nach geprüfter Migration erklärt. Standort des eigenen Servers und der Sicherungen: [EIGENER_SERVER_UND_BACKUP_STANDORT].
+
+Für bestätigte Werbeprämien verarbeiten wir Kontokennung, zufällige einmalige Anfragekennung, Anzeigenblock, Prämienart und -betrag, Zeitangaben, Transaktionskennung, Prüfergebnis sowie Nutzungszähler und Wartefristen. Google erhält für die Zuordnung die Kontokennung und Anfragekennung; E-Mail, Passwort und Firebase-ID-Token werden nicht als Werbeparameter übergeben. Die Verifikation soll Manipulation und doppelte Gutschriften verhindern. Eine abgelaufene Werbeanfrage bedeutet noch keine Löschung des Belegs.
+
+Du kannst Konto- und Datenlöschung ohne Neuinstallation per E-Mail an codenamedeko@gmail.com mit dem Betreff „PocketGotchi – Konto löschen“ beantragen. Gib nur die zur Zuordnung nötigen Kontoinformationen an; sende niemals Passwörter, Anmeldetokens oder Service-Account-Dateien. Wir prüfen die Berechtigung verhältnismäßig. Eine Anfrage allein bestätigt noch keine ausgeführte Löschung. Die vorbereitete automatische Löschkette umfasst die Spieltabellen, aktuelle verschlüsselte Wiederherstellungsdaten, ältere Firestore-Daten und zuletzt die Firebase-Identität. Ihre produktive Freigabe und vollständige Abnahme stehen noch aus. Abmelden und Deinstallieren ersetzen den Antrag nicht; rein lokale Spielstände lassen sich über die Android-App-Daten löschen.
+
+Festgelegt sind 14 Tage für historische, vom Host verwaltete SQL-Sicherungen und 30 Tage nach erkanntem Abschluss für normale Supportanfragen. Der neue Host bereinigt abgelaufene Sicherungspakete beim Start und danach stündlich; Gmail verwendet die Labels PocketGotchi/Support und PocketGotchi/Erledigt. Beim ersten Erkennen des Abschlusses beginnt eine volle 30-Tage-Frist. Erkannte Wiederöffnung oder eine neue Antwort hebt den Abschluss auf. Die Löschung erfolgt im nächsten erfolgreichen Lauf nach Fristablauf, bei normalem Betrieb innerhalb einer weiteren Stunde; Ausfälle werden danach nachgeholt. Gmail-Nachrichten werden endgültig gelöscht, nicht nur in den Papierkorb verschoben. Diese Automatik ist lokal geprüft, aber das neue Pi-Paket und der Gmail-Trigger müssen noch produktiv aktiviert und abgenommen werden. Unbekannte oder beschädigte Sicherungspakete werden als Fehler zur Behebung gemeldet. Extern angelegte Kopien sind gesondert zu erfassen. Aktuelle verschlüsselte Wiederherstellungsdaten und personenbezogene Löschmarkierungen sind keine historischen Backups: Kontolöschung bereinigt die aktuellen Wiederherstellungsdaten, während Markierungen eine Wiederbelebung aus alten Sicherungen verhindern. Deren notwendige Dauer und die Fristen weiterer Sicherheitsbelege bzw. inaktiver Konten bleiben gesondert zu bestimmen: [LOESCHMARKIERUNGEN_SICHERHEIT_INAKTIVE_KONTEN].
+
+Ein authentifizierter, seitenweiser Export der eigenen MySQL-Spielinformationen ist serverseitig vorbereitet. Er enthält keine privaten Schlüssel oder nutzbaren Kauf-/Anmeldetokens und ersetzt noch nicht die vollständige Auskunft über Firebase-, Support- oder Anbieterdaten. Auskunft und Berichtigung können über die Kontaktadresse angefragt werden.

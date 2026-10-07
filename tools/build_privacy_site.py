@@ -23,7 +23,7 @@ def inline(text):
     # HTML is escaped; only explicit HTTPS Markdown links are supported.
     parts = []
     position = 0
-    for match in re.finditer(r"\[([^\]\n]+)\]\((https://[^\s)]+)\)", text):
+    for match in re.finditer(r"\[([^\]\n]+)\]\((https://[^\s)]+|mailto:codenamedeko@gmail\.com\?subject=[A-Za-z0-9%_-]+)\)", text):
         parts.append(html.escape(text[position:match.start()]))
         parts.append(f'<a href="{html.escape(match[2], quote=True)}" rel="noreferrer">{html.escape(match[1])}</a>')
         position = match.end()
@@ -55,6 +55,7 @@ def document(page, lang, title, content):
         target = f"privacy/{region}/{code}/index.html"
         current = ' aria-current="page"' if target == page else ""
         links.append(f'<a href="{relative(page, target)}" lang="{code}"{current}>{region.upper()} · {label}</a>')
+    links.append(f'<a href="{relative(page, "account-deletion/" + lang + "/index.html")}">Account deletion · {LANGUAGES[lang]}</a>')
     return f'''<!doctype html>
 <html lang="{lang}">
 <head>
@@ -79,6 +80,8 @@ class LinkAudit(HTMLParser):
             raise ValueError(f"Unexpected embedded content: {self.page}: {tag}")
         for key, value in attrs:
             if key not in {"href", "src"}:
+                continue
+            if value.startswith("mailto:codenamedeko@gmail.com?subject=") and tag == "a":
                 continue
             if value.startswith("https://"):
                 if tag != "a":
@@ -109,6 +112,18 @@ def main():
         title = markdown.splitlines()[0].removeprefix("# ")
         page = f"privacy/{region}/{lang}/index.html"
         expected[page] = document(page, lang, title, body(markdown))
+    for lang in LANGUAGES:
+        source = ROOT / f"policies/deletion/{lang}.md"
+        markdown = source.read_text(encoding="utf-8")
+        if PLACEHOLDER.search(markdown) or DRAFT.search(markdown):
+            unresolved.append(f"{source.relative_to(ROOT)}: deletion policy draft")
+        page = f"account-deletion/{lang}/index.html"
+        expected[page] = document(page, lang, markdown.splitlines()[0].removeprefix("# "), body(markdown))
+    page = "account-deletion/index.html"
+    content = '<h1>PocketGotchi — Account and data deletion</h1><ul>'
+    for lang, label in LANGUAGES.items():
+        content += f'<li><a href="{relative(page, f"account-deletion/{lang}/index.html")}">{label}</a></li>'
+    expected[page] = document(page, "en", "PocketGotchi — Account deletion", content + "</ul>")
     if args.release and unresolved:
         parser.exit(1, "Publication blocked: complete and review EU and US notices.\n" + "\n".join(unresolved) + "\n")
     for page, region in (("index.html", None), ("privacy/index.html", None),
@@ -140,6 +155,7 @@ def main():
         if not (PUBLIC / asset).is_file():
             parser.exit(1, f"Missing static asset: {asset}\n")
     actual = {str(p.relative_to(PUBLIC)) for p in (PUBLIC / "privacy").rglob("*") if p.is_file()}
+    actual |= {str(p.relative_to(PUBLIC)) for p in (PUBLIC / "account-deletion").rglob("*") if p.is_file()}
     actual |= {asset for asset in ("index.html", "style.css", ".nojekyll") if (PUBLIC / asset).is_file()}
     if actual != files:
         parser.exit(1, f"Unexpected website files: {sorted(actual - files)}\n")

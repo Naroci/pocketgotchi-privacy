@@ -1,6 +1,6 @@
 # Politique de confidentialité de PocketGotchi
 
-Mise à jour : 29 septembre 2026. Application : PocketGotchi (Android : com.myRandomCode.PocketGotchi).
+Mise à jour : 7 octobre 2026. Application : PocketGotchi (Android : com.myRandomCode.PocketGotchi).
 
 BROUILLON — Les mentions signalées et certaines vérifications restent à compléter. Cette version n'est pas prête à être publiée et ne certifie pas la conformité au RGPD.
 
@@ -10,7 +10,7 @@ PocketGotchi est développé par Mirco Hoelzenbein, personne physique responsabl
 
 ## 2. Périmètre et version actuelle
 
-Cette politique concerne le jeu, ses fonctions en ligne facultatives et cette page web. Le jeu local ne nécessite pas de connexion Google. La version Android de test propose une connexion Google facultative, des sauvegardes cloud et un test publicitaire AdMob explicitement signalé. Les récompenses publicitaires de production et les achats intégrés ne sont pas activés. Cette politique sera actualisée avant leur lancement. Les annonces de test peuvent également transmettre des données à Google.
+PocketGotchi peut se jouer localement sans connexion. Le client propose une connexion Google facultative et la sauvegarde existante dans Firestore. Notre serveur de récompenses et de données de jeu est accessible en HTTPS ; l’intégration du client et la validation de vrais retours AdMob ne sont pas encore terminées. Les annonces de test peuvent déjà transmettre des données à Google. Les achats et les autres offres préparées ne sont pas encore ouverts en production.
 
 ## 3. Jeu local et compte facultatif
 
@@ -21,6 +21,8 @@ Lors de la connexion Google ou de l'utilisation du cloud, Google et nous traiton
 ## 4. AdMob et consentement
 
 Lors d'une demande d'annonce, Google Mobile Ads peut transmettre l'adresse IP et la position approximative déduite, l'identifiant publicitaire et d'autres identifiants d'appareil ou de compte, des informations sur l'application et l'appareil, impressions, clics, vues vidéo et diagnostics. Les finalités comprennent diffusion et, si autorisée, personnalisation des annonces, mesure, facturation et lutte contre la fraude. La personnalisation peut utiliser des profils d'intérêts. Le traitement dépend du consentement, de la région et des réglages. Une annonce non personnalisée n'est pas automatiquement dispensée de consentement.
+
+La nouvelle version préparée ne demande que des annonces non personnalisées, sans personnalisation selon les centres d’intérêt. Les obligations de consentement et de protection des mineurs subsistent ; la validation sur appareil réel avec les services de production reste à effectuer.
 
 Google User Messaging Platform (UMP) gère le formulaire requis et mémorise les choix. Lorsque Google exige cet accès, ouvrez Réglages → Publicité → Confidentialité des annonces pour modifier ou retirer votre consentement pour l'avenir. Le retrait n'affecte pas la licéité du traitement antérieur. Lire cette politique ou se connecter ne vaut pas consentement publicitaire. Le jeu local reste accessible sans consentir aux annonces personnalisées. Réinitialiser ou supprimer l'identifiant publicitaire dans Android ne remplace pas le retrait dans le formulaire.
 
@@ -36,7 +38,7 @@ Des traitements hors EEE, notamment aux États-Unis, sont possibles. Région clo
 
 ## 7. Conservation et suppression
 
-Les données locales restent jusqu'à l'effacement des données de l'application ; désinstallation et sauvegardes varient selon la plateforme. Les comptes et sauvegardes cloud sont conservés pour fournir la fonction de compte. Règles d'inactivité, suppression et sauvegardes : [KONTO_UND_BACKUP_LOESCHFRISTEN]. Les demandes d'assistance sont conservées jusqu'à résolution puis seulement si nécessaire : [SUPPORT_FRIST]. La conservation publicitaire propre à Google dépend de ses finalités ; nous ne promettons pas un délai unique pour toutes ses données. Des obligations légales ou la défense nécessaire de droits peuvent justifier une conservation supplémentaire limitée.
+Les données locales restent jusqu'à l'effacement des données de l'application ; désinstallation et sauvegardes varient selon la plateforme. Les comptes et sauvegardes cloud sont conservés pour fournir la fonction de compte. Règles d'inactivité, suppression et sauvegardes : [LOESCHMARKIERUNGEN_SICHERHEIT_INAKTIVE_KONTEN]. Les demandes d'assistance sont conservées jusqu'à résolution puis seulement si nécessaire : 30 jours après détection de clôture ; voir le nettoyage automatique ci-dessous. La conservation publicitaire propre à Google dépend de ses finalités ; nous ne promettons pas un délai unique pour toutes ses données. Des obligations légales ou la défense nécessaire de droits peuvent justifier une conservation supplémentaire limitée.
 
 Pour supprimer le compte et les données cloud, contactez-nous en indiquant PocketGotchi et les informations de compte nécessaires, jamais de mot de passe ni jeton de connexion. Une vérification d'identité proportionnée peut être nécessaire. Le jeu ne propose pas encore de suppression complète du compte. Déconnexion, retrait du consentement publicitaire et désinstallation ne suppriment pas automatiquement les données serveur.
 
@@ -46,7 +48,7 @@ Sous les conditions légales, vous disposez des droits d'accès, rectification, 
 
 ## 9. Enfants et décisions automatisées
 
-Public et âge minimum : Le jeu vise principalement les adultes appréciant les jeux nostalgiques, mais accueille aussi les enfants. Âge minimum et dispositions applicables aux mineurs : [MINDESTALTER_UND_KINDERKONZEPT]. Les seuils d'âge et autorisations parentales applicables doivent être respectés lorsqu'un consentement d'enfant est requis ; en Allemagne, l'article 8 prévoit généralement 16 ans dans son champ d'application. Les réglages enfants/âge et restrictions publicitaires doivent être confirmés avant lancement ; aucun contrôle d'âge opérationnel n'est affirmé ici. Nous ne prenons pas de décisions exclusivement automatisées ayant un effet juridique ou similaire significatif au sens de l'article 22. Le profilage publicitaire éventuel est décrit plus haut.
+Le public prévu au lancement est âgé de 13 ans et plus ; PocketGotchi ne vise pas les moins de 13 ans. La conception et l’utilisation réelles doivent néanmoins être évaluées. Pour les 13–17 ans, il faut prévoir des annonces adaptées, limiter la personnalisation et obtenir l’autorisation parentale lorsqu’elle est requise. En Allemagne, le seuil de l’article 8 du RGPD est généralement de 16 ans dans son champ d’application ; d’autres États membres peuvent l’abaisser à 13 ans. Le contrôle de l’âge et les restrictions techniques restent à valider : [JUGENDSCHUTZ_13_PLUS_UMSETZUNG]. Aucun mécanisme opérationnel de vérification de l’âge ou de consentement parental n’est affirmé. Signalez les données de moins de 13 ans au contact indiqué.
 
 ## 10. Contact et site web
 
@@ -55,3 +57,15 @@ Vos coordonnées et messages servent à traiter vos demandes selon l'article 6(1
 ## 11. Informations et modifications
 
 Consultez [Google](https://policies.google.com/privacy?hl=fr), [ses services partenaires](https://policies.google.com/technologies/partner-sites?hl=fr), [la conservation Google](https://policies.google.com/technologies/retention?hl=fr), [Firebase](https://firebase.google.com/support/privacy) et [les préférences publicitaires](https://myadcenter.google.com/). Nous adapterons cette politique aux évolutions des fonctions et du droit, signalerons les changements importants et recueillerons séparément tout nouveau consentement nécessaire.
+
+## Notre serveur de jeu, justificatifs publicitaires et suppression
+
+Firebase Authentication assure la connexion et l’identité. Notre serveur vérifie les jetons Firebase, leur projet et leur révocation. Il traite l’identifiant Firebase, les données techniques de connexion et les données de jeu demandées. Les nouveaux soldes, inventaires, récompenses, droits et contrôles d’achat côté serveur utilisent notre base MySQL. La sauvegarde existante du client utilise encore Firestore ; un passage complet à MySQL ne sera annoncé qu’après une migration vérifiée. Emplacement du serveur et des sauvegardes : [EIGENER_SERVER_UND_BACKUP_STANDORT].
+
+La vérification des récompenses traite l’identifiant du compte, un identifiant aléatoire de demande à usage unique, le bloc d’annonces, le type et le montant de récompense, les dates, l’identifiant de transaction, le résultat du contrôle, les compteurs et délais. Google reçoit les identifiants de compte et de demande ; aucun e-mail, mot de passe ou jeton Firebase n’est transmis comme paramètre publicitaire. Ce contrôle évite les falsifications et doubles récompenses. L’expiration d’une demande ne supprime pas automatiquement son justificatif.
+
+Sans réinstaller le jeu, demandez la suppression du compte et des données à codenamedeko@gmail.com, objet « PocketGotchi – Suppression du compte ». Fournissez seulement les informations nécessaires pour retrouver le compte, jamais de mot de passe, jeton ou fichier de compte de service. Une vérification proportionnée est effectuée. L’envoi ne confirme pas la suppression. Le traitement automatique préparé couvre les tables du jeu, la récupération chiffrée actuelle, les anciennes données Firestore puis l’identité Firebase. Son activation en production et sa validation complète restent ouvertes. Déconnexion et désinstallation ne remplacent pas la demande ; les sauvegardes purement locales peuvent être effacées dans les données de l’application Android.
+
+Les durées retenues sont de 14 jours pour les sauvegardes SQL historiques gérées par le serveur et de 30 jours après la détection de clôture pour les demandes ordinaires d’assistance. Le nouveau serveur nettoie les sauvegardes expirées au démarrage puis chaque heure ; Gmail utilise les libellés PocketGotchi/Support et PocketGotchi/Erledigt. La première détection de clôture lance un délai complet de 30 jours. Une réouverture détectée ou une nouvelle réponse annule la clôture. L’effacement intervient au prochain passage réussi après échéance, normalement dans l’heure suivante ; les interruptions sont rattrapées ensuite. Les messages Gmail sont supprimés définitivement, sans simple déplacement dans la corbeille. Cette automatisation est testée localement, mais le nouveau paquet Pi et le déclencheur Gmail restent à activer et vérifier en production. Les sauvegardes inconnues ou endommagées sont signalées pour correction. Les copies externes doivent être suivies séparément. Les données actuelles de récupération chiffrée et les marqueurs personnels de suppression ne sont pas des sauvegardes historiques : la suppression du compte nettoie la récupération actuelle, tandis que les marqueurs empêchent une réactivation depuis une ancienne sauvegarde. Leur durée nécessaire et celles des autres justificatifs de sécurité ou comptes inactifs restent à définir séparément : [LOESCHMARKIERUNGEN_SICHERHEIT_INAKTIVE_KONTEN].
+
+Un export authentifié et paginé des données de jeu MySQL du compte est préparé côté serveur, sans clé privée ni jeton utilisable d’achat ou de connexion. Il ne constitue pas une réponse complète incluant Firebase, l’assistance et les prestataires. Les demandes d’accès et de rectification peuvent être adressées au contact indiqué.

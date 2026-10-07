@@ -1,3 +1,15 @@
+## 07.10.2026 – Backend, Löschweg, Retention
+
+- Sechs Quellhinweise und 16 generierte HTML-Seiten mit relativen Links geprüft (`build_privacy_site.py --check`).
+- Fünf neue externe Löschseiten, eingeschränkter mailto-Link auf die bekannte Kontaktadresse;
+  keine Skripte, Cookies oder externen Fonts ergänzt. Deutsche Löschseite im lokalen Browser geladen,
+  Überschrift, vollständiger Text, Mail-Link und Sprach-/Rücknavigation im Accessibilitybaum geprüft.
+- Gmail-Skript: 16 lokale Node-VM-Prüfungen, keine echten E-Mails. Genau30Tage, Wiederöffnung,
+  neue Antwort, Pagination, Teilfehler/Retry, falsches Konto und während Löschung eintreffende Antwort.
+- Productiv-Trigger/Google-Autorisierung und Pi-Update noch offen. Fristen im Text als beschlossen,
+  Automatik als lokal geprüft und zur Aktivierung vorbereitet ausgewiesen. Keine Veröffentlichung.
+- `--check --release` muss Entwürfe und offene Werte weiterhin ablehnen.
+
 ## GitHub Pages und Firebase-Land konkretisiert – 29.09.2026
 
 Alle fünf EU-Fassungen und die US-Fassung nennen GitHub Pages als Hoster und

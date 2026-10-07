@@ -1,6 +1,6 @@
 # United States Privacy Notice for PocketGotchi
 
-Last updated: September 29, 2026. App: PocketGotchi (Android: com.myRandomCode.PocketGotchi).
+Last updated: October 7, 2026. App: PocketGotchi (Android: com.myRandomCode.PocketGotchi).
 
 DRAFT — Not ready for publication. Marked information and privacy controls remain unresolved. This notice does not certify compliance with every US federal or state law. No effective publication date has been set.
 
@@ -12,7 +12,7 @@ This notice explains the information practices of the game, its optional online 
 
 ## 2. Current features
 
-You can play locally without Google sign-in. The current Android test version offers optional Google sign-in, cloud saves and a clearly labelled Google AdMob ad test. Production ad rewards and in-app purchases are not enabled. Test ads may still connect to Google and process information. We will update this notice before introducing materially different processing, production ad rewards or purchases.
+PocketGotchi can be played locally without signing in. Optional Google sign-in and the existing Firestore save feature are present in the client. Our own reward and game-data server is reachable over HTTPS; client integration and acceptance of real AdMob callbacks are not yet complete. Test ads can already transfer information to Google. Purchases and further prepared offers have not been released for production.
 
 ## 3. Information categories, sources and purposes
 
@@ -23,6 +23,8 @@ Identifiers and account information: if you request online features, Google and 
 Game activity and cloud information: when you choose a cloud upload, Firebase receives the selected save, including progress, game activity, timestamps and version information, to store and restore it. Guest cloud access may create a pseudonymous identifier; it is not complete anonymity.
 
 Internet/network activity, device information and approximate location: Google Mobile Ads may collect IP addresses, approximate location inferred from IP addresses, advertising and other device/account identifiers, app/device details, ad impressions, clicks, video views and diagnostics. These originate from the device, app and ad interactions. Purposes include ad delivery, permitted personalisation, measurement, billing and fraud prevention. Advertising providers may derive interest inferences and associate activity across apps or websites, depending on their configuration and applicable choices.
+
+The newly prepared app version requests only non-personalised ads and does not request interest-based personalisation. Consent and minor-protection duties still apply; real-device acceptance with production providers is pending.
 
 Communications: if you contact us, we receive the contact details and message you supply to respond and handle privacy requests. Please do not send unnecessary sensitive information. Local gameplay does not require contacts, camera, microphone or precise location. We do not ask for payment-card information in the current version. We do not use standalone gameplay analytics or crash-reporting services merely because their code exists in an underlying development framework; actual released integrations must be checked before publication: [US_ADDITIONAL_SDKS_OR_NONE].
 
@@ -50,7 +52,7 @@ This static page does not implement a browser Do Not Track response or an accoun
 
 ## 7. Retention, security and international processing
 
-Local information remains until app data is cleared; uninstall and operating-system backup behaviour can differ. Cloud accounts and saves are generally kept to provide requested account functions. Actual inactivity, deletion and backup rules: [KONTO_UND_BACKUP_LOESCHFRISTEN]. Support retention: [SUPPORT_FRIST]. Advertising providers have purpose-dependent retention described in their policies. We cannot promise a single retention period for all Google information. Information should not be kept longer than reasonably necessary for disclosed purposes, subject to applicable legal obligations and permitted exceptions.
+Local information remains until app data is cleared; uninstall and operating-system backup behaviour can differ. Cloud accounts and saves are generally kept to provide requested account functions. Actual inactivity, deletion and backup rules: [LOESCHMARKIERUNGEN_SICHERHEIT_INAKTIVE_KONTEN]. Support retention: 30 days after detected completion; see automated cleanup below. Advertising providers have purpose-dependent retention described in their policies. We cannot promise a single retention period for all Google information. Information should not be kept longer than reasonably necessary for disclosed purposes, subject to applicable legal obligations and permitted exceptions.
 
 We use access controls and encrypted network connections for supported online services, but no system is completely secure. The operator is in South Korea; providers may process information in the United States and other countries. Actual cloud region and provider locations: According to the developer, the Cloud Firestore database is located in the United States; its exact location identifier still needs confirmation. GitHub Pages and other Google services may process data in other locations, as described in their privacy notices. This notice does not treat using the app as blanket consent to all international processing.
 
@@ -66,16 +68,22 @@ The current game has no complete in-app account-deletion function. Signing out, 
 
 ## 9. Children and teenagers
 
-PocketGotchi primarily appeals to adults interested in nostalgic games, but its intended audience also includes children. We therefore do not describe it as an adults-only service or assume that COPPA cannot apply. Final minimum age, audience classification and child-specific processing: [US_CHILD_AUDIENCE_AND_AGE_RULES]. A product description alone does not establish the legal classification of a mixed-audience service.
-
-COPPA applies to covered child-directed services and certain services with actual knowledge that they collect personal information from a child under 13. Persistent advertising identifiers may count as personal information. A compliant child-data process may require direct notice to parents, verifiable parental consent before collection and separate parental consent for covered third-party disclosures such as targeted advertising. Narrow exceptions must be assessed for the actual processing. A standard Google advertising consent form does not by itself provide verifiable parental consent.
-
-Parent-notice and consent methods, age handling, information collected from children, recipient operators and contacts, parent access/deletion procedures, and the child-data retention schedule: [US_COPPA_PARENT_NOTICE_AND_CONTROLS]. These controls are not yet verified in the current game. Do not infer a working under-13 gate from this draft. Before enabling covered collection from children, the actual safeguards and separate parental notice must be in place. Parents can contact codenamedeko@gmail.com to raise concerns or request review/deletion, subject to appropriate verification. We will investigate such reports and take action required by applicable law.
-
-Where the CCPA applies, selling or sharing information with actual knowledge that a consumer is under 16 requires the applicable affirmative authorisation, including parental authorisation for children under 13. Other states may impose additional safeguards for minors. Actual minor-advertising controls: [US_MINOR_AD_CONTROLS].
+The intended launch audience is ages 13 and up; PocketGotchi is not intended for children under 13. This does not replace assessment of its actual design and use. For ages 13–17, age-appropriate advertising, restricted personalization and parental authorization where required must be addressed. In Germany, the threshold for consent-based processing within Article 8 GDPR is generally 16; other member states may lower it to 13. Age screening and technical restrictions are not yet accepted: [JUGENDSCHUTZ_13_PLUS_UMSETZUNG]. We do not claim an operational age-verification or parental-consent system. Report concerns about information from children under 13 to the contact above.
 
 ## 10. Changes and further information
 
 We will post updates here and change the last-updated date. For material changes we will provide an appropriate additional notice, such as an in-app notice, before the changed processing begins where required, and obtain new consent when required. A policy update does not retroactively override your choices. If the CCPA applies, the notice must also be reviewed and updated at least annually.
 
 For provider information see [Google Privacy](https://policies.google.com/privacy?hl=en), [Google services in partner apps](https://policies.google.com/technologies/partner-sites?hl=en), [Google retention](https://policies.google.com/technologies/retention?hl=en), [Firebase privacy](https://firebase.google.com/support/privacy), and [Google ad settings](https://myadcenter.google.com/). For an accessible alternative format or questions about this notice, contact codenamedeko@gmail.com.
+
+## Our game server, reward records and deletion
+
+Firebase Authentication remains responsible for sign-in and identity. Our server verifies Firebase ID tokens, including project binding and revocation status. It processes the Firebase identifier, technical connection information and requested game data. New server-side currency balances, inventories, rewards, entitlements and purchase checks use our own MySQL database. The existing client save feature still uses Firestore; a complete switch to MySQL will only be stated after a tested migration. Location of our server and backups: [EIGENER_SERVER_UND_BACKUP_STANDORT].
+
+To verify ad rewards, we process the account identifier, a random one-time request identifier, ad unit, reward type and amount, timestamps, transaction identifier, verification result, usage counters and waiting periods. Google receives the account and request identifiers for attribution; email addresses, passwords and Firebase ID tokens are not sent as ad parameters. Verification prevents tampering and duplicate rewards. Expiration of an ad request does not automatically delete its record.
+
+Request account and data deletion without reinstalling the app by emailing codenamedeko@gmail.com with the subject “PocketGotchi – Delete account”. Provide only information needed to identify the account; never send passwords, authentication tokens or service-account files. We apply proportionate identity checks. Submitting a request does not itself confirm deletion. The prepared automatic deletion workflow covers game tables, current encrypted recovery data, legacy Firestore data and finally the Firebase identity. Production activation and full acceptance are pending. Signing out or uninstalling does not replace a request; purely local saves can be removed through Android app-data settings.
+
+The chosen periods are 14 days for historical SQL backups managed by the host and 30 days after detected completion for ordinary support requests. The new host cleans expired backup bundles at startup and hourly; Gmail uses the labels PocketGotchi/Support and PocketGotchi/Erledigt. First detection of completion starts a full 30-day period. Detected reopening or a new reply cancels completion. Deletion runs at the next successful sweep after expiry, normally within one additional hour; outages are caught up afterward. Gmail messages are permanently deleted, not merely moved to trash. This automation is locally tested, but the new Pi package and Gmail trigger still need production activation and acceptance. Unknown or damaged backup bundles are reported for correction. External copies must be tracked separately. Current encrypted recovery data and personal deletion markers are not historical backups: account deletion cleans current recovery data, while markers prevent revival from old backups. Their necessary duration and periods for other security records or inactive accounts remain to be defined separately: [LOESCHMARKIERUNGEN_SICHERHEIT_INAKTIVE_KONTEN].
+
+An authenticated, paginated export of the account’s MySQL game information is prepared on the server. It excludes private keys and usable purchase or authentication tokens. It does not replace a complete access response covering Firebase, support and provider data. Access and correction requests can be sent to the contact address.

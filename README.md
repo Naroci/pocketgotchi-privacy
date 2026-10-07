@@ -1,14 +1,14 @@
 # PocketGotchi — Datenschutzerklärungen
 
 Separates lokales Repository für die EU-/DSGVO- und US-Datenschutztexte.
-Stand: 29.09.2026. **Beide Varianten sind Entwürfe mit offenen Freigabepunkten;
+Stand: 07.10.2026. **Beide Varianten sind Entwürfe mit offenen Freigabepunkten;
 die aktuellen lokalen Änderungen wurden nicht zu GitHub gepusht.**
 
 Entwickler, Verantwortlicher und direkte Kontaktperson: Mirco Hoelzenbein
 (Privatperson, Südkorea). Datenschutzkontakt:
 `codenamedeko@gmail.com`. Vollständige Kontaktdaten stehen in den Erklärungen.
-Zielgruppe: hauptsächlich nostalgieinteressierte Erwachsene, auch Kinder.
-Deshalb enthalten beide Varianten offene Minderjährigen-/Altersvorgaben.
+Geplante Startzielgruppe: 13+. Altersprüfung und Schutz für 13–17-Jährige bleiben offen;
+nicht personalisierte Werbeanfragen ersetzen diese Anforderungen nicht.
 
 ## Struktur
 
@@ -72,3 +72,18 @@ GitHub Pages: Branch `main`, Ordner `/(root)`; URL `https://naroci.github.io/poc
 keine Spielstände und keine Firebase-/AdMob-Zugangsdaten. Die bestehenden
 Git-Metadaten und `.gitattributes` des Zielverzeichnisses wurden erhalten.
 Das Spielprojekt verweist auf dieses Repository als maßgebliche Quelle.
+
+## Erweiterung vom 07.10.2026
+
+Konto-/Datenlöschseiten in fünf Sprachen: `account-deletion/{de,en,fr,ko,ja}/`.
+Per Kontakt-E-Mail nutzbarer Antrag ohne Neuinstallation; produktive Löschabnahme offen.
+Neuer Backend-/SSV-/Exportabschnitt nennt aktuelle Firestore-Clientfunktion und vorbereitetes
+MySQL-Modul getrennt. Freigegebene Fristen: 14 Tage historische SQL-Backups, 30 Tage ab
+ erkanntem Supportabschluss. Der automatische Serverworker ist lokal geprüft, Deployment offen.
+Gmail-Automatik mit Abschlusslabel: [Einrichtung](operations/gmail-support-retention/README.md),
+[Code.gs](operations/gmail-support-retention/Code.gs), [Manifest](operations/gmail-support-retention/appsscript.json).
+Sie ist vorbereitet und lokal geprüft, aber noch nicht im Konto aktiviert.
+
+Veröffentlichung bleibt gesperrt: tatsächlicher eigener Server-/Backupstandort, nötige Dauer
+von Löschmarkierungen/Sicherheitsbelegen/inaktiven Konten, Anbieter-/regionale Rechtsangaben,
+Alterskonzept, In-App-Löschung und Liveabnahme vervollständigen. Keine pauschale Compliancezusage.
